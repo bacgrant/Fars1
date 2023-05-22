@@ -1,0 +1,45 @@
+---
+title: "Fars_Functions"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+```
+## Fars Functions
+
+The functions are intended to be used for processing data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. The functions fars_read, make_filename, fars_read_years, and fars_summarize_years are used to provide a monthly summary of the data for a given year. The function fars_map_state is used to provide a map of the locations of fatalities for a given state in a given year.
+
+To use the package, either enter a vector of years into the fars_summarize_years function to provide a numerical summary or enter a state number and single year of interest into the fars_map_state function to generate a map of incidents for teh specified state and year.
+
+The Fars_Functions package contains the following functions:
+
+* fars_read
+* make_filename
+* fars_read_years
+* fars_summarize_years
+* fars_map_state
+
+### fars_read
+
+This function takes a file name as input and returns the data rad from teh file specified in a data table.
+
+### make_filename
+
+This function takes a year number as a numeric input and creates a formatted file name for the year specified, returned ass a character string.
+
+### fars_read_years
+
+This function takes a vector of numeric year values and returns the data for each specified year by month.
+
+### fars_summarize_years
+
+This functions takes a vector of numeric year values and returns a monthly summary of the data for each specified year.
+
+### fars_map_state
+This function takes a state number and numeric year of interest and returns a map of the  state showing the location of the incidents.
