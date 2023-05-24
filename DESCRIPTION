@@ -14,5 +14,5 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
-Depends: dplyr
+Imports: dplyr
 Depends: tidyr
