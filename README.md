@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![Build status](https://ci.appveyor.com/api/projects/status/dvq4150alrljc9ev?svg=true)](https://ci.appveyor.com/project/bacgrant/fars1
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/bacgrant/Fars1?branch=master&svg=true)](https://ci.appveyor.com/project/bacgrant/Fars1)
 <!-- badges: end -->
 
 The goal of Fars1 is to provide functions which are intended to be used for processing data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. The functions fars_read, make_filename, fars_read_years, and fars_summarize_years are used to provide a monthly summary of the data for a given year. The function fars_map_state is used to provide a map of the locations of fatalities for a given state in a given year.
