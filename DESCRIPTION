@@ -15,4 +15,4 @@ Suggests:
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
 Depends: dplyr
-Dependss: tidyr
+Depends: tidyr
