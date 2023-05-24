@@ -11,7 +11,7 @@
 #'@importFrom readr read_csv
 #'
 #'@examples
-#'fars_read('my_file.csv')
+#'\dontrun{fars_read('my_file.csv')}
 #'
 #'@export
 fars_read <- function(filename) {
@@ -33,7 +33,7 @@ fars_read <- function(filename) {
 #'@return this function returns a filename in a specific format
 #'
 #'@examples
-#'make_filename(2013)
+#'\dontrun{make_filename(2013)}
 #'
 #'@export
 make_filename <- function(year) {
@@ -51,7 +51,7 @@ make_filename <- function(year) {
 #'@importFrom dplyr select
 #'
 #'@examples
-#'fars_read_years(c(2013,2014,2015))
+#'\dontrun{fars_read_years(c(2013,2014,2015))}
 #'
 #'@return The function returns the month and year columns from the dataset for each specified year
 #'
@@ -83,7 +83,7 @@ fars_read_years <- function(years) {
 #'
 #'
 #'@examples
-#'fars_summarize_years(c(2013,2014,2015))
+#\dontrun{'fars_summarize_years(c(2013,2014,2015))}
 #'
 #'@return A monthly summary of teh data for each year of interest.
 #'
@@ -107,7 +107,7 @@ fars_summarize_years <- function(years) {
 #'@importFrom graphics points
 #'
 #'@examples
-#'fars_map_state(10,2013)
+#'\dontrun{fars_map_state(10,2013)}
 #'
 #'@return A map for the specified state number showing the locations of motor vehicle fatalities for the year specified
 #'

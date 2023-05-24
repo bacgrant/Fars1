@@ -17,6 +17,6 @@ this function takes a numerical year as input and prints out a filename in a spe
 a non-numeric year value will result ina n error.
 }
 \examples{
-make_filename(2013)
+\dontrun{make_filename(2013)}
 
 }

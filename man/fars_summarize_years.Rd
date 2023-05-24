@@ -19,7 +19,3 @@ Provide a monthly summary of the data for each year of interest.
 Read data for each year of interest, bind rows into a single data frame,
 group by year and month and summarise the results
 }
-\examples{
-fars_summarize_years(c(2013,2014,2015))
-
-}

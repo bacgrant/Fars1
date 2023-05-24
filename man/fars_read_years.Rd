@@ -20,6 +20,6 @@ add an additional column for the year and return the month and year columns from
 The function includes error trapping to capture invalid years and issue a warning.
 }
 \examples{
-fars_read_years(c(2013,2014,2015))
+\dontrun{fars_read_years(c(2013,2014,2015))}
 
 }

@@ -17,6 +17,6 @@ This function reads in data from a comma separated value(csv) format file.
 The output is returned in table format. If the named file does not exist, execution will stop and an error message displayed.
 }
 \examples{
-fars_read('my_file.csv')
+\dontrun{fars_read('my_file.csv')}
 
 }

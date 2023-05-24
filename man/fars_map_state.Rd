@@ -20,6 +20,6 @@ Generate a map for the specified state number showing the locations of motor veh
 the function includes error trapping to capture invalid state numbers and display an error message.
 }
 \examples{
-fars_map_state(10,2013)
+\dontrun{fars_map_state(10,2013)}
 
 }
