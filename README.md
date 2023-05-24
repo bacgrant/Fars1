@@ -13,7 +13,7 @@ You can install the development version of Fars1 like so:
 
 
 
-``` r
+``` r 
 install.packages("githubinstall")
 library(githubinstall)
 gh_install_packages("Fars1")
