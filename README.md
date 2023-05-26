@@ -4,7 +4,7 @@
 Built on Appveyor rather than Travis as primarily a windows user!
 
 <!-- badges: start -->
-[![Build status](https://ci.appveyor.com/api/projects/status/dvq4150alrljc9ev?svg=true)](https://ci.appveyor.com/project/bacgrant/fars1
+[![Build status](https://ci.appveyor.com/api/projects/status/dvq4150alrljc9ev?svg=true)](https://ci.appveyor.com/project/bacgrant/fars1)
 [![R-CMD-check](https://github.com/bacgrant/Fars1/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bacgrant/Fars1/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
